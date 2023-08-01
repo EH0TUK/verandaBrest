@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__body">
+                <div class="header__title">
+                    <p class="header__subtitle">Веранда</p>
+                    <p class="header__label">бар</p>
+                </div>
+                <ul class="header__burger-menu">
+                    <input type="checkbox" id="checkbox__header__burger" />
+                    <label for="checkbox__header__burger" class="header__burger"><span
+                            class="header__burger-line"></span></label>
+                    <div class="header__menu">
+                        <li class="header__link"><a href="#hello" aria-current="page">Главная</a></li>
+                        <li class="header__link"><a href="#menu" aria-current="page">Меню</a></li>
+                        <li class="header__link"><a href="#location" aria-current="page">Локация</a></li>
+                        <li class="header__link"><a href="#contacts">Контакты</a></li>
+                    </div>
+                </ul>
+            </div>
+        </header>
+        <div class="hello" id="hello">
+            <div class="container">
+                <div class="hello__body">
+                    <div class="hello__text">
+                        <p>Добро пожаловать в</p>
+                        <p> бар Веранда</p>
+                    </div>
+                    <div class="hello__image">
+                        <img src="/img/1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <a id="menu"></a>
+        </div>
+        <div class="menu">
+            <div class="container">
+                <div class="carousel__title title">Меню</div>
+                <div class="carousel" id="carousel_id">
+                    <!--
+                        <div class="carousel-cell">
+                            <div class="carousel__item">
+                                <div class="carousel__subtitle">Title</div>
+                                <div class="carousel__menu">
+                                    <div class="carousel__menu-element">
+                                        <div class="menu__title">title Lorem ipsum dolor </div>
+                                        <div class="menu__size">size</div>
+                                        <div class="menu__price">price</div>
+                                        <div class="menu__desc">description</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        -->
+                </div>
+            </div>
+        </div>
+        <div class="dishes">
+            <div class="container">
+                <div class="dishes__title title">Наши блюда</div>
+                <div class="dishes__carousel">
+                    <div class="dishes-cell">
+                        <div class="dishes__item">
+                            <img src="/img/menu/1.jpg" alt="...">
+                        </div>
+                    </div>
+                    <div class="dishes-cell">
+                        <div class="dishes__item">
+                            <img src="/img/menu/2.jpg" alt="...">
+                        </div>
+                    </div>
+                    <div class="dishes-cell">
+                        <div class="dishes__item">
+                            <img src="/img/menu/3.jpg" alt="...">
+                        </div>
+                    </div>
+                    <div class="dishes-cell">
+                        <div class="dishes__item">
+                            <img src="/img/menu/4.jpg" alt="...">
+                        </div>
+                    </div>
+                    <div class="dishes-cell">
+                        <div class="dishes__item">
+                            <img src="/img/menu/5.jpg" alt="...">
+                        </div>
+                    </div>
+                    <div class="dishes-cell">
+                        <div class="dishes__item">
+                            <img src="/img/menu/6.jpg" alt="...">
+                        </div>
+                    </div>
+                    <div class="dishes-cell">
+                        <div class="dishes__item">
+                            <img src="/img/menu/7.jpg" alt="...">
+                        </div>
+                    </div>
+                    <div class="dishes-cell">
+                        <div class="dishes__item">
+                            <img src="/img/menu/8.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a id="location"></a>
+        </div>
+        <div class="location">
+            <div class="container">
+                <div class="location__title title">Локация</div>
+                <div class="location__body">
+                    <div class="location__text">
+                        <div class="location__adress">
+                            <p>Адрес:</p>
+                            <p>Брест, просп. Машерова 17А, к. 110</p>
+                        </div>
+                        <div class="location__work-time">
+                            <ul>
+                                <li>
+                                    <p>пн</p>
+                                    <p>11:00 - 23:00</p>
+                                </li>
+                                <li>
+                                    <p>вт</p>
+                                    <p>11:00 - 23:00</p>
+                                </li>
+                                <li>
+                                    <p>ср</p>
+                                    <p>11:00 - 23:00</p>
+                                </li>
+                                <li>
+                                    <p>чт</p>
+                                    <p>11:00 - 23:00</p>
+                                </li>
+                                <li>
+                                    <p>пт</p>
+                                    <p>11:00 - 23:00</p>
+                                </li>
+                                <li>
+                                    <p>сб</p>
+                                    <p>11:00 - 23:00</p>
+                                </li>
+                                <li>
+                                    <p>вс</p>
+                                    <p>11:00 - 23:00</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="location__map">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.2391610026885!2d23.69638023914364!3d52.08543986221451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210bac08ac7fd7%3A0x1eafd60caddf877c!2z0JHQsNGAICLQktC10YDQsNC90LTQsCI!5e0!3m2!1sru!2sby!4v1655231883559!5m2!1sru!2sby"
+                            width="100%" height="450px" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts__title title">Контакты</div>
+                <div class="contacts__body">
+                    <div class="contacts__number">
+                        <p>Контактный номер:</p>
+                        <p>+375(29)791-53-22</p>
+                    </div>
+                    <div class="contacts__number-delivery">
+                        <p>Телефон для заказов:</p>
+                        <p>8(016)23-23-33</p>
+                    </div>
+                    <div class="contacts__inst">
+                        <p>Instagram:</p>
+                        <a href="https://www.instagram.com/bar_veranda_brest/">@bar_veranda_brest</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+    <script type="text/javascript" src="menu.json"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
